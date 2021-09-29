@@ -12,7 +12,7 @@ package student;
 public class Student {
        private String name;
        private String address;
-       private String studentId;
+       private String marks;
        
        
     public String getAddress() {
@@ -31,14 +31,14 @@ public class Student {
         this.name = name;
     }
  
-    public String getStudentId(){
+    public String getMarks(){
         
-        return studentId;
+        return marks;
     }
     
-    public void setStudentId(String studentId){
+    public void setStudentId(String marks){
         
-        this.studentId=studentId;
+        this.marks=marks;
     }
     
    
