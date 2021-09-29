@@ -12,7 +12,9 @@ package student;
 public class Student {
        private String name;
        private String address;
-
+       private String studentId;
+       
+       
     public String getAddress() {
         return address;
     }
@@ -28,7 +30,16 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
-
+ 
+    public String getStudentId(){
+        
+        return studentId;
+    }
+    
+    public void setStudentId(String studentId){
+        
+        this.studentId=studentId;
+    }
     
    
     
