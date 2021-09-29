@@ -6,7 +6,7 @@
 package student;
 
 /**for pull
- *this is commment added
+ *this is commmit added
  * @author Ronak
  */
 public class Student {
