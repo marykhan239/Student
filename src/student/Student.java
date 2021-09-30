@@ -11,6 +11,7 @@ package student;
  */
 
 //changes done on github
+//changes done for fetch and merge
 public class Student {
        private String name;
        private String address;
